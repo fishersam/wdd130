@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&family=Tilt+Warp&display=swap');
+
+:root  {
+    --primary-color: #cad2c5;
+--secondary-color: #84a98c;
+--accent1-color: #354f52;
+--accent2-color: #2f3e46;
+
+--heading-font: 'Tilt Warp', serif;
+--paragraph-font: 'Rubik', serif;
+
+--nav-background-color: #cad2c5;
+--nav-link-color: #354f52;
+--nav-hover-link-color: #84a98c;
+--nav-hover-background-color: #2f3e46;
+}
+
+body {
+    max-width: 960px;
+    padding: 20px;
+    }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+
+  header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+  }
+
+  p {
+    padding: 25px;
+  }
+
+  nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
